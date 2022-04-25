@@ -1,0 +1,65 @@
+# 샵은 주석입니다. // 완료
+# 메인페이지
+main=cookatz.common.controller.MainController
+#
+#----------------------------------------------------
+# Cooking Class board section // 완료
+CCBoInsert=cookatz.CCBoard.controller.BoardInsertController
+CCBoUpdate=cookatz.CCBoard.controller.BoardUpdateController
+CCBoDelete=cookatz.CCBoard.controller.BoardDeleteController
+CCBoDetail=cookatz.CCBoard.controller.BoardDetailController
+#
+# 관리자용 리스트
+CCBoList=cookatz.CCBoard.controller.BoardListController
+#
+# 일반사용자 리스트
+CCBoMainList=cookatz.CCBoard.controller.BoardMainListController
+#
+#-----------------------------------------------
+# employee section - 소현 /완료
+#로그인
+emLogin=cookatz.employee.controller.EmployeeLoginController
+#로그아웃
+emLogout=cookatz.employee.controller.EmployeeLogoutController
+#회원가입
+emInsert=cookatz.employee.controller.EmployeeInsertController
+#회원수정
+emUpdate=cookatz.employee.controller.EmployeeUpdateController
+#회원탈퇴
+emDelete=cookatz.employee.controller.EmployeeDeleteController
+#회원목록
+emList=cookatz.employee.controller.EmployeeListController
+#my페이지
+emPage=cookatz.employee.controller.EmployeeMyPageController
+#관리자페이지
+adPage=cookatz.employee.controller.EmployeeAdminPageController
+#
+#----------------------------------------------------
+# product section - 주현 // 완료
+#상품 등록 (관리자만)
+prInsert=cookatz.product.controller.ProductInsertController
+#상품 수정 (관리자만)
+prUpdate=cookatz.product.controller.ProductUpdateController
+#상품삭제 (관리자만)
+prDelete=cookatz.product.controller.ProductDeleteController
+#상품 상세목록보기
+prDetail=cookatz.product.controller.ProductDetailController
+#상품목록보기 (모든 회원 접근 가능)
+prVegList=cookatz.product.controller.ProductListController
+#
+#----------------------------------------------------
+# recipe section-종욱() // 완료
+reInsert=cookatz.recipe.controller.RecipeInsertController
+reDelete=cookatz.recipe.controller.RecipeDeleteController
+reDetail=cookatz.recipe.controller.RecipeDetailController
+reList=cookatz.recipe.controller.RecipeListController
+reUpdate=cookatz.recipe.controller.RecipeUpdateController
+#----------------------------------------------------
+# mall section-치국 // 완료
+maInsert=cookatz.mall.controller.MallInsertController
+maList=cookatz.mall.controller.MallListController
+maCalculate=cookatz.mall.controller.MallCalculateController
+maDelete=cookatz.mall.controller.MallDeleteController
+#maOrder=cookatz.mall.controller.MallOrderController
+#maDetail=cookatz.mall.controller.MallDetailController
+maUpdate=cookatz.mall.controller.MallUpdateController
